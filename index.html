@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Avanti Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    
+</head>
+<body>
+    <div class="top-bar">
+        Ganhe <strong>R$10,00</strong> de desconto no seu primeiro pedido. Use o cupom <strong>DESCONTO10</strong>
+    </div>
+
+    <header class="header">
+        <div class="logo">AVANTI</div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Digite aqui o que você procura" />
+            <button id="search-button" title="Buscar">🔍</button>
+        </div>
+    </header>
+
+    <nav class="menu">
+        <div class="dropdown">
+            <button class="menu-btn">☰ Todas as Categorias</button>
+            <div class="dropdown-content">
+                <div class="departments">
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                <div class="department">Departamento <span class="seta">&gt;</span></div>
+                </div>
+                <div class="categories">
+                    <div class="category-column">
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                    </div>
+                    <div class="category-column">
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                    </div>
+                    <div class="category-column">
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                        <div class="category">Categoria </div>
+                    </div>
+                </div>
+                <div class="image-section">
+                    <img src="img/ef8daecaf8893c25768fa037bfd7d976.png" alt="Imagem do Produto">
+                    <div class="image-text-container">
+                        <div class="image-text">
+                            Confira os<br>
+                             Produtos<br>
+                            <strong>Que<br> acabaram<br> De chegar</strong> 
+                        </div>
+                        <button class="view-all">VER TODOS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-items">
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+            <a href="#">Departamento</a>
+        </div>
+    </nav>
+    <section class="banner">
+        <div class="banner-text">
+            <h1>SUPERSALE</h1>
+            <p>ITENS SELECIONADOS COM ATÉ</p>
+            <h2>50% OFF</h2>
+        </div>
+    </section>
+
+    <div id="search-result" class="search-result"></div>
+
+    <section class="lancamentos">  
+        <h2>Lançamentos</h2>      
+        <div class="carousel-container">
+            <div class="carousel">
+                <button class="carousel-btn left" onclick="scrollCarousel(-1)">⬅️</button>
+                <div class="carousel-track" id="carousel-track">
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </div>
+                <button class="carousel-btn right" onclick="scrollCarousel(1)">➡️</button>
+            </div>
+        </div>
+    </section>
+    <section class="product-section">
+        <div class="product-image">
+            <img src="img/724d1e1446d771ed3eab8f22c675425b.png" alt="Caneca Avanti">
+        </div>
+        <div class="product-content">
+            <h2>TESTE TÉCNICO AVANTI</h2>
+            <p>
+                Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI
+                Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI
+                Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI
+                
+            </p>
+        </div>
+    </section>
+    <section class="features-section">
+        <div class="features-content">
+            <h2>TESTE TÉCNICO AVANTI</h2>
+            <div class="feature-item">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <p>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <p>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</p>
+            </div>
+            <div class="feature-item">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                <p>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI.</p>
+            </div>
+        </div>
+        <div class="features-image">
+            <img src="img/ef8daecaf8893c25768fa037bfd7d976.png" alt="Caneca na cozinha">
+        </div>
+    </section>
+   
+    <section class="lancamentos">
+        <h2>Lançamentos</h2>
+        <div class="carousel-container">
+            <div class="carousel">
+                <button class="carousel-btn left" onclick="scrollCarousel(-1)">⬅️</button>
+                <div class="carousel-track" id="carousel-track">
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                    <div class="card">
+                        <span class="novo">NOVO</span>
+                        <img src="img/7d52d6af45bdbc2b2d315fe332eb521b.png" alt="Produto">
+                        <h3>Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI</h3>
+                        <div class="preco">
+                            <span class="preco-antigo">R$ 100,00</span>
+                            <div class="preco-novo-container">
+                                <span class="preco-novo">R$ 79,90</span>
+                                <button class="desconto">10% OFF</button>
+                            </div>
+                        </div>
+                        <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                        <button class="botao-comprar">Comprar</button>
+                    </div>
+                </div>
+                <button class="carousel-btn right" onclick="scrollCarousel(1)">➡️</button>
+            </div>
+        </div>
+    </section>
+    <section class="custom-section">
+        <div class="custom-banner">
+            Entre em contato conosco e verifique a disponibilidade para sua região!
+        </div>
+    </section>
+    <section class="register"><strong>Cadastre-se na nossa newsletter</strong></section>
+    
+        <div class="newsletter">
+            <form class="newsletter-form">
+                <div class="input-group">
+                    <input type="text" placeholder="Digite seu nome">
+                    <input type="email" placeholder="Digite seu e-mail">
+                </div>
+                <div class="form-actions">
+                    <div class="terms">
+                        <input type="checkbox" id="agree">
+                        <label for="agree">Estou de acordo com a <a href="#">Política de Privacidade</a></label>
+                    </div>
+                    <button type="submit">Cadastrar</button>
+                </div>
+            </form>
+        </div>
+    </section>    
+    <footer>
+        <!-- Links e Redes Sociais -->
+        <div class="footer-content">
+            <div class="footer-wrapper">
+              <div class="footer-brand">
+                <h2>AVANTI</h2>
+                <div class="social-icons">
+                  <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                  <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+                  <a href="#" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+              </div>
+          
+              <div class="footer-links">
+                <div class="column">
+                  <h4>Institucional</h4>
+                  <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Nossas Lojas</a></li>
+                    <li><a href="#">Privacidade e Segurança</a></li>
+                    <li><a href="#">Termos e Condições</a></li>
+                  </ul>
+                </div>
+          
+                <div class="column">
+                  <h4>Central de Ajuda</h4>
+                  <ul>
+                    <li><a href="#">Fale Conosco</a></li>
+                    <li><a href="#">Frete e Entrega</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                    <li><a href="#">Formas de Pagamento</a></li>
+                    <li><a href="#">FAQ</a></li>
+                  </ul>
+                </div>
+          
+                <div class="column">
+                  <h4>Atendimento</h4>
+                  <p><strong>Telefone:</strong> (51) 98137-4906</p>
+                  <p><strong>E-mail:</strong> jsoaresb17@gmail.com</p>
+                  <p><strong>Horário de Atendimento:</strong><br>
+                    Segunda a Sábado: 07h00 às 23h00<br>
+                    Domingos e Feriados: 07h00 às 21h00
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        <div class="footer-bottom">
+            <div class="payment-methods">
+                <i class="fab fa-cc-visa"></i>
+                <i class="fab fa-cc-mastercard"></i>
+                <i class="fab fa-cc-amex"></i> 
+                <i class="fab fa-cc-paypal"></i>
+                <i class="fas fa-barcode"></i> 
+            </div>
+        
+            <p class="copyright">
+                Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI Teste técnico AVANTI
+            </p>
+        
+            <div class="footer-logos">
+                <img src="img/letsencrypt.png" alt="Let's Encrypt">
+                <img src="img/logoavanti.png" alt="AVANTI">
+                <img src="img/vtex.png" alt="VTEX">
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
