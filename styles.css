@@ -266,7 +266,7 @@ body {
 
 .lancamentos {
     padding: 20px;
-    position: relative; /* Torna a seção um contêiner de posicionamento */
+    position: relative; 
 }
 
 .lancamentos h2 {
@@ -562,30 +562,30 @@ footer {
 }
 
 .newsletter-form {
-    display: flex; /* Mantém o flex para alinhar os grupos */
-    align-items: center; /* Alinha verticalmente os itens */
-    gap: 20px; /* Espaçamento entre os grupos */
+    display: flex;
+    align-items: center; 
+    gap: 20px; 
     margin-top: 10px;
-    justify-content: flex-start; /* Alinha à esquerda */
-    flex-wrap: wrap; /* Permite quebra em telas menores */
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
 }
 
 .input-group {
-    display: flex; /* Alinha os inputs lado a lado */
+    display: flex; 
     gap: 10px;
-    flex-grow: 1; /* Permite que os inputs ocupem mais espaço */
+    flex-grow: 1; 
 }
 
 .newsletter-form input {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
-    flex-grow: 1; /* Faz os campos de entrada se expandirem */
-    min-width: 150px; /* Largura mínima para evitar que fiquem muito pequenos */
+    flex-grow: 1; 
+    min-width: 150px; 
 }
 
 .form-actions {
-    display: flex; /* Alinha a checkbox/texto e o botão */
+    display: flex; 
     align-items: center;
     gap: 20px;
 }
